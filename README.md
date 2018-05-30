@@ -1,11 +1,14 @@
 # BTextHighlighting
 
 # Usage
-Create a `NSMutableAttributedString` string :
+
+1. Add the two files in your project
+
+2. Create a `NSMutableAttributedString` string :
 
         NSMutableAttributedString *hl = [[NSMutableAttributedString alloc]initWithString:@"Hello world"];
         
-And highlight by passing the substring and the color:
+3. And highlight by passing the substring and the color:
 
         [hl setColorForText:key withColor:[UIColor redColor]];
         
